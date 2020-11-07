@@ -1,10 +1,10 @@
-package org.tron.common.zksnark;
+package org.vron.common.zksnark;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.HexBin;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.tron.common.util.Utils;
+import org.vron.common.util.Utils;
 
 public class LibsodiumTest {
 	public static int NOTEENCRYPTION_AUTH_BYTES = 16;

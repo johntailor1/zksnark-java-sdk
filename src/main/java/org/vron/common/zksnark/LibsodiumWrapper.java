@@ -1,10 +1,10 @@
-package org.tron.common.zksnark;
+package org.vron.common.zksnark;
 
 import java.io.IOException;
-import org.tron.common.util.Utils;
+import org.vron.common.util.Utils;
 
-public class LibrustzcashWrapper {
-  private static final Librustzcash INSTANCE = new Librustzcash();
+public class LibsodiumWrapper {
+  private static final Libsodium INSTANCE = new Libsodium();
 
   static {
     try {
@@ -14,7 +14,7 @@ public class LibrustzcashWrapper {
     }
   }
 
-  public static Librustzcash getInstance() {
+  public static Libsodium getInstance() {
     return INSTANCE;
   }
 
