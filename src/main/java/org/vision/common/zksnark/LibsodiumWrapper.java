@@ -1,7 +1,8 @@
-package org.vron.common.zksnark;
+package org.vision.common.zksnark;
 
 import java.io.IOException;
-import org.vron.common.util.Utils;
+
+import org.vision.common.util.Utils;
 
 public class LibsodiumWrapper {
   private static final Libsodium INSTANCE = new Libsodium();

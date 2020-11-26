@@ -1,4 +1,4 @@
-package org.vron.common.zksnark;
+package org.vision.common.zksnark;
 
 public class Libsodium {
   private static final LibsodiumJNI INSTANCE = new LibsodiumJNI();

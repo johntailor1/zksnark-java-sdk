@@ -1,4 +1,4 @@
-package org.vron.common.zksnark;
+package org.vision.common.zksnark;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.HexBin;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Random;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.vron.common.util.Utils;
+import org.vision.common.util.Utils;
 
 public class LibrustzcashTest {
   private final static String BYTE_32_EMPTY = "0000000000000000000000000000000000000000000000000000000000000000";

@@ -1,4 +1,4 @@
-package org.vron.common.zksnark;
+package org.vision.common.zksnark;
 
 class Librustzcash {
   private static final LibrustzcashJNI INSTANCE = new LibrustzcashJNI();
